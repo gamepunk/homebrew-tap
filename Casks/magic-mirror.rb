@@ -7,13 +7,13 @@ cask "magic-mirror" do
   desc "把任意应用窗口或屏幕区域实时镜像到悬浮窗"
   homepage "https://gamepunk.github.io/magic-mirror/"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Magic Mirror.app"
 
   zap trash: [
-    "~/Library/Caches/com.magicmirror.app",
     "~/Library/Application Support/com.magicmirror.app",
+    "~/Library/Caches/com.magicmirror.app",
     "~/Library/Preferences/com.magicmirror.app.plist",
   ]
 end
