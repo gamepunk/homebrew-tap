@@ -58,3 +58,10 @@ brew upgrade gamepunk/tap/<软件名>   # 例如 gamepunk/tap/magic-mirror
 
 1. 在 `Casks/`（App）或 `Formula/`（命令行工具）中添加对应文件
 2. 推送本仓库即可，`brew tap gamepunk/tap` 过的用户执行 `brew update` 后即可安装
+
+## 更新日志
+
+### 0.0.1
+
+- 添加 Magic Mirror cask（macOS 26+），支持 `brew install gamepunk/tap/magic-mirror`
+- README 重写：通用软件集合 tap 说明 + 安装 / 卸载 / 更新指南
