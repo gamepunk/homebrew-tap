@@ -1,5 +1,8 @@
 # Homebrew Tap
 
+![Brew](https://img.shields.io/badge/Homebrew-tap-blue)
+![Cask](https://img.shields.io/badge/cask-magic--mirror%200.0.1-blue)
+
 > 我的 macOS 软件集合的 Homebrew tap 仓库。通过 Homebrew 安装我发布的 Mac 应用，以后新软件也会陆续加入本仓库。
 
 ## 使用
