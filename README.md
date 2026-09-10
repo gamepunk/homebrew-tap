@@ -1,7 +1,7 @@
 # Homebrew Tap
 
 ![Brew](https://img.shields.io/badge/Homebrew-tap-blue)
-![Cask](https://img.shields.io/badge/cask-magic--mirror%200.0.5-blue)
+![Cask](https://img.shields.io/badge/cask-magic--mirror%200.0.6-blue)
 
 > 我的 macOS 软件集合的 Homebrew tap 仓库。通过 Homebrew 安装我发布的 Mac 应用，以后新软件也会陆续加入本仓库。
 
@@ -49,9 +49,20 @@ brew uninstall gamepunk/tap/magic-mirror
 
 ## 更新软件
 
+App 自带 Sparkle 自动更新，会自行升到新版本，因此 cask 声明了 `auto_updates`。
+这意味着 `brew upgrade` **默认会跳过它**（避免与自动更新重复提示）。
+
+想用 Homebrew 来拉取新版本，加上 `--greedy`：
+
 ```bash
 brew update
-brew upgrade gamepunk/tap/<软件名>   # 例如 gamepunk/tap/magic-mirror
+brew upgrade --greedy gamepunk/tap/magic-mirror
+```
+
+其它软件仍用常规写法：
+
+```bash
+brew upgrade gamepunk/tap/<软件名>
 ```
 
 ## 为仓库添加新软件
@@ -60,6 +71,11 @@ brew upgrade gamepunk/tap/<软件名>   # 例如 gamepunk/tap/magic-mirror
 2. 推送本仓库即可，`brew tap gamepunk/tap` 过的用户执行 `brew update` 后即可安装
 
 ## 更新日志
+
+### 0.0.6
+
+- Magic Mirror cask 更新至 0.0.6（菜单栏面板重做：去掉气泡、精确居中于图标）
+- 更新说明补充：cask 声明了 `auto_updates`，`brew upgrade` 默认跳过，需 `--greedy` 才会由 Homebrew 拉取
 
 ### 0.0.5
 

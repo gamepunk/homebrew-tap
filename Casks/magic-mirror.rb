@@ -1,6 +1,6 @@
 cask "magic-mirror" do
-  version "0.0.5"
-  sha256 "5920ff6ef2da1ae8d8fee4f6cb2ffee8a8a311439d7e3f9c1ffb8c79aacea9d2"
+  version "0.0.6"
+  sha256 "b23526bea6a304bbc051c31a287d4afc53bd7e42153e0b75e4042d602b444f78"
 
   url "https://gamepunk.github.io/magic-mirror/downloads/MagicMirror-#{version}.dmg"
   name "Magic Mirror"
