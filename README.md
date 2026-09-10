@@ -1,7 +1,7 @@
 # Homebrew Tap
 
 ![Brew](https://img.shields.io/badge/Homebrew-tap-blue)
-![Cask](https://img.shields.io/badge/cask-magic--mirror%200.0.1-blue)
+![Cask](https://img.shields.io/badge/cask-magic--mirror%200.0.5-blue)
 
 > 我的 macOS 软件集合的 Homebrew tap 仓库。通过 Homebrew 安装我发布的 Mac 应用，以后新软件也会陆续加入本仓库。
 
@@ -44,7 +44,7 @@ brew uninstall gamepunk/tap/magic-mirror
 
 #### 注意事项
 
-- 商业软件，支持 7 天免费试用；购买与激活方式见[官网](https://gamepunk.github.io/magic-mirror/)。
+- **完全免费**：无试用期限、无需激活码，下载即用全部功能。
 - 当前构建使用 Apple Development 证书签名、未公证，首次打开如遇 Gatekeeper 提示，右键「打开」放行一次即可。
 
 ## 更新软件
@@ -60,6 +60,10 @@ brew upgrade gamepunk/tap/<软件名>   # 例如 gamepunk/tap/magic-mirror
 2. 推送本仓库即可，`brew tap gamepunk/tap` 过的用户执行 `brew update` 后即可安装
 
 ## 更新日志
+
+### 0.0.5
+
+- Magic Mirror cask 更新至 0.0.5（完全免费）
 
 ### 0.0.1
 
