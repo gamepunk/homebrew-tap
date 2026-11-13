@@ -96,6 +96,11 @@ brew upgrade --greedy gamepunk/tap/flip
 
 ## 更新日志
 
+### 0.29.16
+
+- 移除重复的 AppIcon.png，仅保留 Assets 图标目录
+- 清理旧调试菜单和未使用 API
+
 ### 0.29.15
 
 - 鼠标 hover 与键盘选择合并为唯一选中行
