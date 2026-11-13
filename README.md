@@ -96,6 +96,10 @@ brew upgrade --greedy gamepunk/tap/flip
 
 ## 更新日志
 
+### 0.29.20
+
+- 行高统一后恢复向下滚动贴底整行对齐
+
 ### 0.29.19
 
 - 统一行高为 56pt
