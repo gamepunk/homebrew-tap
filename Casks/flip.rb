@@ -7,6 +7,11 @@ cask "flip" do
   desc "菜单栏效率工具，集中控制系统开关与自定义脚本"
   homepage "https://gamepunk.github.io/Flip/"
 
+  livecheck do
+    url "https://gamepunk.github.io/Flip/appcast.xml"
+    strategy :sparkle
+  end
+
   # App 自带 Sparkle 自动更新；声明后 brew upgrade 默认跳过，
   # 避免与 App 内更新重复提示。使用 --greedy 可强制由 Homebrew 更新。
   auto_updates true
