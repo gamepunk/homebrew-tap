@@ -96,6 +96,13 @@ brew upgrade --greedy gamepunk/tap/flip
 
 ## 更新日志
 
+### 0.29.12
+
+- Flip 更新至 0.29.12：新增扬声器静音、蓝牙、网络、隔空投送控制
+- 面板支持方向键选择、回车执行，并新增「打开菜单」全局快捷键
+- 选项命令只允许使用预设选项，禁止脚本动态生成
+- 修复开关点击后的蓝色焦点环
+
 ### 0.29.11
 
 - 添加 Flip cask（macOS 12+），支持 `brew install gamepunk/tap/flip`
