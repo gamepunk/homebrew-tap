@@ -2,6 +2,7 @@
 
 ![Brew](https://img.shields.io/badge/Homebrew-tap-blue)
 ![Cask](https://img.shields.io/badge/cask-magic--mirror%200.0.6-blue)
+![Cask](https://img.shields.io/badge/cask-flip%200.29.11-blue)
 
 > 我的 macOS 软件集合的 Homebrew tap 仓库。通过 Homebrew 安装我发布的 Mac 应用，以后新软件也会陆续加入本仓库。
 
@@ -20,6 +21,33 @@ brew tap gamepunk/tap
 | Cask | 软件 | 说明 |
 |---|---|---|
 | `magic-mirror` | [Magic Mirror](https://gamepunk.github.io/magic-mirror/) | 菜单栏实时画面镜像工具：把任意应用窗口或屏幕区域逐帧镜像到置顶悬浮窗 |
+| `flip` | [Flip](https://gamepunk.github.io/Flip/) | 菜单栏效率工具：集中管理系统开关、专注模式和自定义脚本 |
+
+### Flip
+
+安装：
+
+```bash
+brew install gamepunk/tap/flip
+```
+
+卸载：
+
+```bash
+brew uninstall gamepunk/tap/flip
+```
+
+#### 系统要求
+
+| 项 | 要求 |
+|---|---|
+| macOS | 12.0+（Monterey） |
+
+#### 注意事项
+
+- **完全免费**：无试用期限、无需激活码。
+- 部分功能（低电量、合盖不休眠、高能耗）会安装 **System Helper** 并在首次安装时请求一次管理员授权。
+- 当前构建使用 Apple Development 证书签名、未公证，首次打开如遇 Gatekeeper 提示，右键「打开」放行一次即可。
 
 ### Magic Mirror
 
@@ -71,6 +99,11 @@ brew upgrade gamepunk/tap/<软件名>
 2. 推送本仓库即可，`brew tap gamepunk/tap` 过的用户执行 `brew update` 后即可安装
 
 ## 更新日志
+
+### 0.29.11
+
+- 添加 Flip cask（macOS 12+），支持 `brew install gamepunk/tap/flip`
+- Flip cask 声明 `auto_updates`，与 App 内 Sparkle 更新配合；`brew upgrade` 默认跳过，使用 `--greedy` 可由 Homebrew 拉取
 
 ### 0.0.6
 
