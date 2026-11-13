@@ -96,6 +96,10 @@ brew upgrade --greedy gamepunk/tap/flip
 
 ## 更新日志
 
+### 0.29.17
+
+- 修复键盘滚动时静止鼠标抢占选中行
+
 ### 0.29.16
 
 - 移除重复的 AppIcon.png，仅保留 Assets 图标目录
