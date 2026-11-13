@@ -1,8 +1,8 @@
 cask "flip" do
-  version "0.29.11"
+  version "0.29.11,20261113.86"
   sha256 "07f6fd2b54f882ec1815667b4eba657021c66fc5ae67c5308752a105565e32ba"
 
-  url "https://gamepunk.github.io/Flip/Flip-#{version}.dmg"
+  url "https://gamepunk.github.io/Flip/Flip-#{version.csv.first}.dmg"
   name "Flip"
   desc "菜单栏效率工具，集中控制系统开关与自定义脚本"
   homepage "https://gamepunk.github.io/Flip/"
