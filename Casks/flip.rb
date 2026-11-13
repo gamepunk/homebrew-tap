@@ -19,6 +19,11 @@ cask "flip" do
 
   app "Flip.app"
 
+  caveats <<~EOS
+    Flip uses Sparkle for automatic updates, so `brew upgrade` skips this cask by default.
+    Uninstall System Helper from Flip settings before removing the app.
+  EOS
+
   zap trash: [
     "~/.config/flip",
     "~/Library/Application Support/org.inksky.Flip",

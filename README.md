@@ -47,6 +47,7 @@ brew uninstall gamepunk/tap/flip
 
 - **完全免费**：无试用期限、无需激活码。
 - 部分功能（低电量、合盖不休眠、高能耗）会安装 **System Helper** 并在首次安装时请求一次管理员授权。
+- 卸载 App 前，建议先在 Flip 设置里卸载 System Helper，避免残留后台 helper。
 - 当前构建使用 Apple Development 证书签名、未公证，首次打开如遇 Gatekeeper 提示，右键「打开」放行一次即可。
 
 ### Magic Mirror
