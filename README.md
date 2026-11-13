@@ -85,12 +85,7 @@ App 自带 Sparkle 自动更新，会自行升到新版本，因此 cask 声明�
 ```bash
 brew update
 brew upgrade --greedy gamepunk/tap/magic-mirror
-```
-
-其它软件仍用常规写法：
-
-```bash
-brew upgrade gamepunk/tap/<软件名>
+brew upgrade --greedy gamepunk/tap/flip
 ```
 
 ## 为仓库添加新软件
