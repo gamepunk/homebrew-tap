@@ -1,6 +1,6 @@
 cask "flip" do
-  version "0.29.12,20261113.87"
-  sha256 "65d1d2f5593b8bbd34aa7fcb9d9b1fecf6a3aeaf9cf1863c6a321434d2e9c7dd"
+  version "0.29.13,20261113.88"
+  sha256 "65029a2a505dc768ea1da2f4c8a9c38a4a0e33094538742c9c23f2d6a04efb0e"
 
   url "https://gamepunk.github.io/Flip/Flip-#{version.csv.first}.dmg"
   name "Flip"
